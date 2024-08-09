@@ -1,4 +1,4 @@
-module github.com/michaeldcanady/servicenow-sdk-go
+module github.com/hdisysteme/servicenow-sdk-go
 
 go 1.21
 
