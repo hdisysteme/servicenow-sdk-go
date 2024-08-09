@@ -14,6 +14,7 @@ import (
 	"github.com/hdisysteme/servicenow-sdk-go/credentials"
 	"github.com/hdisysteme/servicenow-sdk-go/internal"
 	intCore "github.com/hdisysteme/servicenow-sdk-go/internal/core"
+	"github.com/mozillazg/go-httpheader"
 	"github.com/stretchr/testify/assert"
 )
 
