@@ -9,6 +9,7 @@ import (
 
 	"github.com/hdisysteme/servicenow-sdk-go/internal"
 	"github.com/hdisysteme/servicenow-sdk-go/internal/core"
+	"github.com/mozillazg/go-httpheader"
 )
 
 // RequestInformation represents an abstract HTTP request.
