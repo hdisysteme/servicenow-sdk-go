@@ -1,6 +1,6 @@
 package attachmentapi
 
-import "github.com/michaeldcanady/servicenow-sdk-go/core"
+import "github.com/hdisysteme/servicenow-sdk-go/core"
 
 type AttachmentCollectionGetRequestConfiguration struct {
 	Header          interface{}

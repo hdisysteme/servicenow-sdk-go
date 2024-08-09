@@ -16,10 +16,10 @@ Sends multiple REST API requests in a single HTTP call. This can significantly i
 package main
 
 import (
-    batchapi "github.com/michaeldcanady/servicenow-sdk-go/batch-api"
-    core "github.com/michaeldcanady/servicenow-sdk-go/core"
-    tableapi "github.com/michaeldcanady/servicenow-sdk-go/table-api"
-    servicenow "github.com/michaeldcanady/servicenow-sdk-go"
+    batchapi "github.com/hdisysteme/servicenow-sdk-go/batch-api"
+    core "github.com/hdisysteme/servicenow-sdk-go/core"
+    tableapi "github.com/hdisysteme/servicenow-sdk-go/table-api"
+    servicenow "github.com/hdisysteme/servicenow-sdk-go"
 )
 
 // createTableDeleteRequest creates a delete request for a given table and sysId.

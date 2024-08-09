@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/michaeldcanady/servicenow-sdk-go/core"
+	"github.com/hdisysteme/servicenow-sdk-go/core"
 )
 
 type AttachmentRequestBuilder struct {

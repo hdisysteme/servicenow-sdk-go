@@ -1,7 +1,7 @@
 package internal
 
 import (
-	"github.com/michaeldcanady/servicenow-sdk-go/internal/core"
+	"github.com/hdisysteme/servicenow-sdk-go/internal/core"
 )
 
 var (
@@ -18,13 +18,13 @@ var (
 	ErrNilSource               = core.ErrNilSource
 	ErrNilCredential           = core.ErrNilCredential
 
-	//Page Iterator
+	// Page Iterator
 	ErrNilClient         = core.ErrNilClient
 	ErrNilResult         = core.ErrNilResult
 	ErrWrongResponseType = core.ErrWrongResponseType
 	ErrParsing           = core.ErrParsing
 	ErrNilCallback       = core.ErrNilCallback
 
-	//Authorization Provider
+	// Authorization Provider
 	ErrNilRequest = core.ErrNilRequest
 )

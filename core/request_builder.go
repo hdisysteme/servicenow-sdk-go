@@ -6,7 +6,7 @@ import (
 	"reflect"
 
 	"github.com/gabriel-vasile/mimetype"
-	"github.com/michaeldcanady/servicenow-sdk-go/internal"
+	"github.com/hdisysteme/servicenow-sdk-go/internal"
 )
 
 // Deprecated: deprecated since v{unreleased}.

@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/google/go-querystring/query"
-	"github.com/michaeldcanady/servicenow-sdk-go/internal"
+	"github.com/hdisysteme/servicenow-sdk-go/internal"
 	"github.com/yosida95/uritemplate/v3"
 )
 

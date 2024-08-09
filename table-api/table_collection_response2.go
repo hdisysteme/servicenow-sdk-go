@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/michaeldcanady/servicenow-sdk-go/core"
+	"github.com/hdisysteme/servicenow-sdk-go/core"
 )
 
 // TableCollectionResponse2 represents a collection of table entries.

@@ -7,9 +7,8 @@ import (
 	"net/url"
 	"reflect"
 
-	"github.com/michaeldcanady/servicenow-sdk-go/internal"
-	"github.com/michaeldcanady/servicenow-sdk-go/internal/core"
-	"github.com/mozillazg/go-httpheader"
+	"github.com/hdisysteme/servicenow-sdk-go/internal"
+	"github.com/hdisysteme/servicenow-sdk-go/internal/core"
 )
 
 // RequestInformation represents an abstract HTTP request.
@@ -93,7 +92,7 @@ func (rI *RequestInformation) getContentReader() *bytes.Reader {
 }
 
 func (rI *RequestInformation) SetUri(url *url.URL) { //nolint:stylecheck
-	//TODO: Add validation that url is valid
+	// TODO: Add validation that url is valid
 
 	rI.uri.PathParameters = map[string]string{rawURLKey: url.String()}
 }

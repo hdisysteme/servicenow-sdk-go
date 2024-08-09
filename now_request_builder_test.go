@@ -3,7 +3,7 @@ package servicenowsdkgo
 import (
 	"testing"
 
-	"github.com/michaeldcanady/servicenow-sdk-go/internal"
+	"github.com/hdisysteme/servicenow-sdk-go/internal"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -1,10 +1,10 @@
 package servicenowsdkgo
 
 import (
-	attachmentapi "github.com/michaeldcanady/servicenow-sdk-go/attachment-api"
-	"github.com/michaeldcanady/servicenow-sdk-go/core"
-	"github.com/michaeldcanady/servicenow-sdk-go/internal"
-	tableapi "github.com/michaeldcanady/servicenow-sdk-go/table-api"
+	attachmentapi "github.com/hdisysteme/servicenow-sdk-go/attachment-api"
+	"github.com/hdisysteme/servicenow-sdk-go/core"
+	"github.com/hdisysteme/servicenow-sdk-go/internal"
+	tableapi "github.com/hdisysteme/servicenow-sdk-go/table-api"
 )
 
 type NowRequestBuilder struct {

@@ -3,7 +3,7 @@ package tableapi
 import (
 	"strconv"
 
-	"github.com/michaeldcanady/servicenow-sdk-go/core"
+	"github.com/hdisysteme/servicenow-sdk-go/core"
 )
 
 // Deprecated: deprecated since v{unreleased}. Use `TableRequestBuilder2` instead.

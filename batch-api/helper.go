@@ -3,7 +3,7 @@ package batchapi
 import (
 	"net/url"
 
-	"github.com/michaeldcanady/servicenow-sdk-go/core"
+	"github.com/hdisysteme/servicenow-sdk-go/core"
 )
 
 func getBaseURL(adapter core.Client2) (*url.URL, error) {

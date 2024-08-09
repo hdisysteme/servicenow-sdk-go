@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
-	"github.com/michaeldcanady/servicenow-sdk-go/core"
-	"github.com/michaeldcanady/servicenow-sdk-go/internal"
+	"github.com/hdisysteme/servicenow-sdk-go/core"
+	"github.com/hdisysteme/servicenow-sdk-go/internal"
 )
 
 type BatchRequest interface {

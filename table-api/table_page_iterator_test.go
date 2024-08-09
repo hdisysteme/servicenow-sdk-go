@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/michaeldcanady/servicenow-sdk-go/core"
-	"github.com/michaeldcanady/servicenow-sdk-go/internal"
+	"github.com/hdisysteme/servicenow-sdk-go/core"
+	"github.com/hdisysteme/servicenow-sdk-go/internal"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -53,7 +53,7 @@ func TestNewTablePageIterator(t *testing.T) {
 			_, err := NewTablePageIterator(page, client)
 
 			// TODO: Fails due to constructor function
-			//assert.Equal(t, test.expected, iterator)
+			// assert.Equal(t, test.expected, iterator)
 			assert.Equal(t, test.err, err)
 		})
 	}

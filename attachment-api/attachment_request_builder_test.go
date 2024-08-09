@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/michaeldcanady/servicenow-sdk-go/core"
-	"github.com/michaeldcanady/servicenow-sdk-go/internal"
+	"github.com/hdisysteme/servicenow-sdk-go/core"
+	"github.com/hdisysteme/servicenow-sdk-go/internal"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -185,18 +185,18 @@ func TestAttachmentRequestBuilderFile(t *testing.T) {
 			UpdatedOn:         Time(today),
 			TableName:         tableName,
 			TableSysId:        tableSysID,
-			//updated_by_name:   fakeUser,
+			// updated_by_name:   fakeUser,
 		},
 	}
 
 	// Create an httptest.NewServer with a custom handler
 	mockServer := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		// Read the request body
-		//_, err := io.ReadAll(r.Body)
-		//if err != nil {
+		// _, err := io.ReadAll(r.Body)
+		// if err != nil {
 		//	http.Error(w, "Error reading request body", http.StatusInternalServerError)
 		//	return
-		//}
+		// }
 
 		// Create a mock JSON response
 		mockResponse := map[string]interface{}{

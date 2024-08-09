@@ -3,7 +3,7 @@ package core
 import (
 	"errors"
 
-	"github.com/michaeldcanady/servicenow-sdk-go/internal"
+	"github.com/hdisysteme/servicenow-sdk-go/internal"
 )
 
 var (
@@ -19,7 +19,7 @@ var (
 	ErrNilResponseBody         = internal.ErrNilResponseBody
 	ErrNilSource               = internal.ErrNilSource
 
-	//Page Iterator
+	// Page Iterator
 	ErrNilClient          = internal.ErrNilClient
 	ErrNilResult          = internal.ErrNilResult
 	ErrWrongResponseType  = internal.ErrWrongResponseType

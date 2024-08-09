@@ -3,7 +3,7 @@ package tableapi
 import (
 	"net/url"
 
-	"github.com/michaeldcanady/servicenow-sdk-go/core"
+	"github.com/hdisysteme/servicenow-sdk-go/core"
 )
 
 // Deprecated: deprecated in v1.5.0. Use TablePageIterator[T] instead.

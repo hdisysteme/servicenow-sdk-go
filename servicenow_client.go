@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/michaeldcanady/servicenow-sdk-go/core"
-	"github.com/michaeldcanady/servicenow-sdk-go/internal"
+	"github.com/hdisysteme/servicenow-sdk-go/core"
+	"github.com/hdisysteme/servicenow-sdk-go/internal"
 )
 
 type ServiceNowClient struct {

@@ -1,9 +1,9 @@
 package tableapi
 
 import (
-	"github.com/michaeldcanady/servicenow-sdk-go/core"
-	"github.com/michaeldcanady/servicenow-sdk-go/internal"
-	intTable "github.com/michaeldcanady/servicenow-sdk-go/table-api/internal"
+	"github.com/hdisysteme/servicenow-sdk-go/core"
+	"github.com/hdisysteme/servicenow-sdk-go/internal"
+	intTable "github.com/hdisysteme/servicenow-sdk-go/table-api/internal"
 )
 
 const (

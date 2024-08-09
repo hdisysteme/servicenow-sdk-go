@@ -10,7 +10,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/michaeldcanady/servicenow-sdk-go/core"
+	"github.com/hdisysteme/servicenow-sdk-go/core"
 )
 
 const (

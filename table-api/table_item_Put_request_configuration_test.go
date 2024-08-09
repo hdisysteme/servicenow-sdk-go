@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/michaeldcanady/servicenow-sdk-go/core"
+	"github.com/hdisysteme/servicenow-sdk-go/core"
 )
 
 func TestTableItemPutRequestConfiguration_toConfiguration(t *testing.T) {

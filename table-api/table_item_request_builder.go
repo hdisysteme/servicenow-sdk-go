@@ -1,6 +1,6 @@
 package tableapi
 
-import "github.com/michaeldcanady/servicenow-sdk-go/core"
+import "github.com/hdisysteme/servicenow-sdk-go/core"
 
 // Deprecated: deprecated since v{unreleased}. Use `TableItemRequestBuilder2` instead.
 type TableItemRequestBuilder struct {

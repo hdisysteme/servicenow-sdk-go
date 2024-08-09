@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	intBatch "github.com/michaeldcanady/servicenow-sdk-go/batch-api/internal"
+	intBatch "github.com/hdisysteme/servicenow-sdk-go/batch-api/internal"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/michaeldcanady/servicenow-sdk-go/internal/mocking"
+	"github.com/hdisysteme/servicenow-sdk-go/internal/mocking"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -72,8 +72,8 @@ func TestBaseAuthorizationProvider_AuthorizeRequest(t *testing.T) {
 			}
 
 			_ = sharedBaseAuthorizationProvider.AuthorizeRequest(test.Input.(RequestInformation))
-			//assert.Equal(t, test.Expected, test.Input)
-			//assert.Equal(t, test.ExpectedErr, err)
+			// assert.Equal(t, test.Expected, test.Input)
+			// assert.Equal(t, test.ExpectedErr, err)
 
 			if test.Cleanup != nil {
 				test.Cleanup()

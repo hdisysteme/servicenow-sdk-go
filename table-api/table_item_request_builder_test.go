@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/michaeldcanady/servicenow-sdk-go/core"
+	"github.com/hdisysteme/servicenow-sdk-go/core"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -1,8 +1,8 @@
 package batchapi
 
 import (
-	"github.com/michaeldcanady/servicenow-sdk-go/batch-api/internal"
-	"github.com/michaeldcanady/servicenow-sdk-go/core"
+	"github.com/hdisysteme/servicenow-sdk-go/batch-api/internal"
+	"github.com/hdisysteme/servicenow-sdk-go/core"
 )
 
 // BatchRequestBuilder constructs batch requests for the specified base URL.
